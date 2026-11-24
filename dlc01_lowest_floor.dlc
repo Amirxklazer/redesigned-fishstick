@@ -1,0 +1,19 @@
+DLC dlc01_lowest_floor|DLC 1: The Lowest Floor|1
+ZONE dlc_lowest|The Lowest Floor
+DARK 1
+SAY Amir|Door 7 opens onto stairs that shouldn't exist. This floor is not on any 14 map.
+SAY Dalia|(radio) Amir, my bot just turned to face the wall. All of them did. Please hurry.
+MAP
+##################
+#1.......#...a...#
+#........#.......#
+#...L....#...B...#
+#..............2.#
+#...##...#.......#
+#...#S...#...L...#
+#........#.......#
+##################
+END
+NOTE a|Scratched into the wall: "THE FLOORS ARE NOT STACKED. THEY ARE SWALLOWED."
+LINK 1 parking1 7 9
+LINK 2 dlc_inn 1 1||The far door is sealed. It needs the Further Inn pack (DLC 2).

@@ -1,0 +1,16 @@
+DLC dlc02_further_inn|DLC 2: Further Inn|1
+ZONE dlc_inn|Further Inn
+DARK 1
+SAY Gabriel|(radio) That's the Further Inn... Amir, the sign says it's been open for 14 years.
+MAP
+##############
+#1...........#
+#.....M..a...#
+#............#
+#.##.....##..#
+#............#
+##############
+END
+NOTE a|A guest book: "Room 14 - Amir. Check-in: tomorrow. Check-out: never."
+NPC M|Gabriel|More of this floor comes in the next update. Keep your battery full.
+LINK 1 dlc_lowest 14 4
